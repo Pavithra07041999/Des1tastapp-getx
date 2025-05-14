@@ -11,7 +11,7 @@ import 'package:gps1taskapp/view/home_page.dart';
 import 'package:gps1taskapp/view/item_list_view_screen.dart';
 import 'package:gps1taskapp/view/second_screen.dart';
 import 'package:gps1taskapp/view/splash_screen.dart';
-import 'package:gps1taskapp/view/textfiled_screen.dart';
+import 'package:gps1taskapp/view/textfield_screen.dart';
 
 class AppRoutes {
   static const String initialRoute = "/splash_screen.dart";
@@ -30,7 +30,7 @@ class AppRoutes {
     GetPage(name: homePage, page: ()=>HomePage(),bindings: [HomePageBinding()]),
     GetPage(name: colorShiftScreen, page: ()=>ColorShiftScreen(),bindings: [ColorShiftBinding()]),
     GetPage(name: itemListScreen ,page: ()=>ItemListViewScreen(),bindings: [ItemListBinding()]),
-    GetPage(name: textFiledScreen, page: ()=>TextfiledScreen(),bindings: [TextfiledBinding()]),
+    GetPage(name: textFiledScreen, page: ()=>TextfieldScreen(),bindings: [TextfiledBinding()]),
     GetPage(name: fetchingDataScreen, page: ()=>FetchingDataScreen(),bindings: [FetchingDataBinding()]),
      GetPage(name: secondScreen, page: ()=>SecondScreen(),bindings: [HomePageBinding()]),
   ];

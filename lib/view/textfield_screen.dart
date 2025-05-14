@@ -4,8 +4,8 @@ import 'package:gps1taskapp/controllers/textfiled_controller.dart';
 
 import 'package:gps1taskapp/widgets/custom_button.dart';
 
-class TextfiledScreen extends GetWidget<TextfiledController> {
-  const TextfiledScreen({super.key});
+class TextfieldScreen extends GetWidget<TextfiledController> {
+  const TextfieldScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

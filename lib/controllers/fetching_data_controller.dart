@@ -8,8 +8,16 @@ class FetchingDataController extends GetxController{
 
   getAuthors() async{
     isLoading.value = true;
+    try{
+      
     authors.value = await AuthorService().getAuthors() ?? []; 
     isLoading.value = false;
+    }catch(e){
+      print(e);
+          isLoading.value = false;
+
+
+    }
   }
 
 
